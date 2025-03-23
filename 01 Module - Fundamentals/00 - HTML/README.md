@@ -31,13 +31,11 @@ This is a comprehensive tutorial on HTML that progresses from the basics to more
    - SVG graphics
    - Data attributes
    - Microdata and SEO
-   - Accessibility features (ARIA)
 
 5. **Preparing for CSS**
    - Link and style tags
    - Class and ID attributes
    - Inline styles
    - External stylesheets
-   - Meta tags for responsive design
 
 Each section will include clear explanations of concepts, practical examples, and code snippets showing proper implementation. We'll also discuss best practices and accessibility considerations throughout.
