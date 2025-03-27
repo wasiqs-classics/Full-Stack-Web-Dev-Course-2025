@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Microdata Example</title>
+</head>
+<body>
+    <h1>HTML Microdata for SEO</h1>
+    
+    <h2>Product Example</h2>
+    <div itemscope itemtype="https://schema.org/Product">
+        <h3 itemprop="name">Wireless Noise-Cancelling Headphones</h3>
+        <img itemprop="image" src="headphones.jpg" alt="Wireless Headphones">
+        
+        <div itemprop="description">
+            Premium wireless headphones with active noise cancellation, 
+            30-hour battery life, and comfortable over-ear design.
+        </div>
+        
+        <div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+            <span itemprop="price">$199.99</span>
+            <meta itemprop="priceCurrency" content="USD">
+            <link itemprop="availability" href="https://schema.org/InStock">In Stock
+        </div>
+        
+        <div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+            <meta itemprop="ratingValue" content="4.5">
+            <meta itemprop="reviewCount" content="89">
+            <span>★★★★½ (89 reviews)</span>
+        </div>
+        
+        <div itemprop="brand" itemscope itemtype="https://schema.org/Brand">
+            <meta itemprop="name" content="AudioTech">
+        </div>
+    </div>
+    
+    <h2>Recipe Example</h2>
+    <div itemscope itemtype="https://schema.org/Recipe">
+        <h3 itemprop="name">Classic Chocolate Chip Cookies</h3>
+        <img itemprop="image" src="cookies.jpg" alt="Chocolate Chip Cookies">
+        
+        <div>
+            <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+                <span itemprop="name">Jane Smith</span>
+            </span>
+        </div>
+        
+        <div>
+            <meta itemprop="datePublished" content="2025-01-15">
+            Published: January 15, 2025
+        </div>
+        
+        <div>
+            <span itemprop="description">
+                The perfect chocolate chip cookies - crispy on the outside, chewy on the inside!
+            </span>
+        </div>
+        
+        <div>
+            <span>Prep Time: <meta itemprop="prepTime" content="PT20M">20 minutes</span><br>
+            <span>Cook Time: <meta itemprop="cookTime" content="PT10M">10 minutes</span><br>
+            <span>Total Time: <meta itemprop="totalTime" content="PT30M">30 minutes</span><br>
+            <span>Yield: <span itemprop="recipeYield">24 cookies</span></span>
+        </div>
+        
+        <div>
+            <h4>Ingredients:</h4>
+            <ul>
+                <li itemprop="recipeIngredient">2 1/4 cups all-purpose flour</li>
+                <li itemprop="recipeIngredient">1 teaspoon baking soda</li>
+                <li itemprop="recipeIngredient">1 teaspoon salt</li>
+                <li itemprop="recipeIngredient">1 cup unsalted butter, softened</li>
+                <li itemprop="recipeIngredient">3/4 cup white sugar</li>
+                <li itemprop="recipeIngredient">3/4 cup brown sugar</li>
+                <li itemprop="recipeIngredient">2 large eggs</li>
+                <li itemprop="recipeIngredient">2 teaspoons vanilla extract</li>
+                <li itemprop="recipeIngredient">2 cups chocolate chips</li>
+            </ul>
+        </div>
+        
+        <div>
+            <h4>Instructions:</h4>
+            <div itemprop="recipeInstructions" itemscope itemtype="https://schema.org/HowToStep">
+                <meta itemprop="position" content="1">
+                <div itemprop="text">Preheat oven to 375°F (190°C)</div>
+            </div>
+            <div itemprop="recipeInstructions" itemscope itemtype="https://schema.org/HowToStep">
+                <meta itemprop="position" content="2">
+                <div itemprop="text">Mix flour, baking soda, and salt in a bowl</div>
+            </div>
+            <div itemprop="recipeInstructions" itemscope itemtype="https://schema.org/HowToStep">
+                <meta itemprop="position" content="3">
+                <div itemprop="text">Cream butter and sugars until light and fluffy</div>
+            </div>
+            <!-- Additional steps would go here -->
+        </div>
+        
+        <div>
+            <h4>Nutrition Information:</h4>
+            <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
+                <span itemprop="calories">150 calories</span> per cookie
+            </div>
+        </div>
+    </div>
+</body>
+</html>
