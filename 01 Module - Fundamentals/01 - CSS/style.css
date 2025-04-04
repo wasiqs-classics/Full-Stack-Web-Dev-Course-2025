@@ -1,0 +1,49 @@
+p {
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: red;
+    font-size: 30px;
+    text-align: center;
+}
+
+#link1 {
+    color: rgb(9, 207, 141);
+}
+
+.orange_link {
+    color: orangered;
+}
+
+h2.text_large {
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: underline wavy blue 5px;
+}
+
+.class1, .class2 {
+    text-decoration: underline;
+}
+
+a:hover{
+    font-size: 30px;
+}
+
+img:hover {
+    border: 5px solid red;
+}
+
+div {
+    border: 2px red solid;
+    margin: 10px;
+    padding: 20px;
+}
+.playwrite-mx-guides-regular {
+    font-family: "Playwrite MX Guides", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
