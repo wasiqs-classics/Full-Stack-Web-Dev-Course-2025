@@ -46,4 +46,24 @@ div {
     font-weight: 400;
     font-style: normal;
   }
+
+body {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    background-attachment: fixed;
+}
+.new_class {
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+    border: black 2px solid;
+    /* display: none; */
+    /* visibility: hidden; */
+}
+
+li {
+    display: inline;
+}
   
